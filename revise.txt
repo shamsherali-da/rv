@@ -1,3 +1,2 @@
 here the text 
-snd 
-trd 
+main
