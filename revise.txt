@@ -1,2 +1,2 @@
 here the text 
-snd
+snd means second branch
