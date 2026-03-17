@@ -1,0 +1,12 @@
+name: welcome
+on:
+  push:
+    branches: [main]
+jobs:
+    dm:
+      runs-on: ubuntu-latest
+      steps:
+        - name: greeting
+          run: echo "welcome to rv repo"
+  
+  
