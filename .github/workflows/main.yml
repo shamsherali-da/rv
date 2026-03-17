@@ -1,14 +1,11 @@
-name: welcome
+name: schedule-greeting
 on:
-  push:
-    branches:
-      - main
-      - snd
+  schedule:
+    - cron: "18 12 * * *"
 jobs:
-    dm:
-      runs-on: ubuntu-latest
-      steps:
-        - name: greeting
-          run: echo "welcome to rv repo"
-  
-  
+  run-script:
+    runs-on: ubuntu-latest
+    steps:
+      - name: greeting-schedule
+        run: echo "welcome schedule greeting"
+        
