@@ -1,7 +1,9 @@
 name: welcome
 on:
   push:
-    branches: [main,snd]
+    branches:
+      - main
+      - snd
 jobs:
     dm:
       runs-on: ubuntu-latest
